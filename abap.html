@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ABAP and SAP Programming</title>
+</head>
+<style>
+    /* Apply styles to the entire page */
+    body {
+        margin: 68px; /* Remove default margin for the body */
+        padding: 80px; /* Remove default padding for the body */
+        border:20px groove #333; /* Border style, width, and color */
+        box-sizing:border-box; /* Include border in the total width and height */
+    }
+
+    /* Style headings */
+    h3 {
+        font-family: Helvetica; /* Choose a font */
+        color: #333; /* Heading text color */
+    }
+
+    /* Style paragraphs */
+    p {
+        font-family: sans-serif; /* Choose a font */
+        font-size: 14px; /* Adjust the font size */
+        line-height: 1.5; /* Set the line height for readability */
+        margin-bottom: 15px; /* Add spacing between paragraphs */
+        color: #333; /* Text color */
+    }
+    .im{
+       left:50px;
+       height:170px;
+       top:10px;
+    }
+    .eth{
+        height:170px;
+
+    }
+    .sec{
+        height:170px;
+
+    }
+    
+</style>
+<body>
+    <h1>ABAP (Advanced Business Application Programming)</h1>
+    
+    <p>ABAP is a programming language that runs in the SAP ABAP runtime environment, created and used by SAP for the development of application programs including:</p>
+
+    <ul>
+        <li>Reports</li>
+        <li>Module Pool Programming</li>
+        <li>Interfaces</li>
+        <li>Forms</li>
+        <li>Data conversions</li>
+        <li>User Exits & BADI</li>
+    </ul>
+
+    <p>All of R/3’s applications and even parts of its basis system were developed in ABAP.</p>
+
+    <p>ABAP is an event-driven programming language. User actions and system events control the execution of an application.</p>
+
+    <p>ABAP is also called ABAP/4. The “4” in ABAP/4 stands for “Fourth Generation Language” or 4GL.</p>
+
+    <h2>ABAP Workbench</h2>
+
+    <p>The ABAP Workbench is used by SAP for the development of standard and custom application software. The ABAP Workbench is also used to create dictionary objects. It consists of the following components −</p>
+
+    <ul>
+        <li>ABAP Editor is used to maintain programs.</li>
+        <li>ABAP Dictionary is used to maintain Dictionary objects.</li>
+        <li>Repository Browser is used to display a hierarchical structure of the components in a package.</li>
+        <li>Menu Painter is used to develop graphical user interfaces including menu bars and toolbars.</li>
+        <li>Screen Painter is used to maintain screen components for online programs.</li>
+        <li>Repository Information System contains information about development and runtime objects, such as data models, dictionary types and table structures, programs, and functions.</li>
+        <li>Test and Analysis Tools, such as the Syntax Check and the Debugger.</li>
+        <li>Function Builder, which allows to create and maintain function groups and function modules.</li>
+        <li>Data Modeler, a tool which supports graphical modeling.</li>
+        <li>Workbench Organizer, which maintains multiple development projects and manages their distribution.</li>
+    </ul>
+    <img src="F:\titan\Pictures\abap1.jpg">
+    <h2>Reporting</h2>
+
+    <p>Report programs produce lists and can be divided into classical reports and interactive reports.</p>
+
+    <p>Classical reports do not allow interaction by the user; therefore, the basic list contains extensive information that the user must often sort through to find relevant data.</p>
+
+    <p>Interactive reports allow interaction by the user; therefore, the user can produce secondary, detailed lists of the basic list by choosing the relevant data and requesting more information.</p>
+
+    <p>SAP Query or Ad-hoc Query or InfoSet Query is a tool that allows the end-user to design different queries based on different input and output parameters in the SAP system according to the requirement.</p>
+
+    <h2>Data Entry</h2>
+
+    <p>The SAP database has to be filled before the end-users can start working over the business process for analyzing and reporting purpose. Various methods are used to transfer data into the system at various stages depending upon the complexity and data volume to be transferred.</p>
+
+    <p>Data can be transferred from SAP to SAP or SAP to non-SAP systems (legacy system). Data can also be transferred through manual entries. The tools used for data transfer are as follows −</p>
+    <img src="F:\titan\Pictures\abap2.jpg">
+    <ul>
+        <li>BDC (Batch Data Communication)</li>
+        <li>IDOC (Intermediate Document)</li>
+        <li>LSMW (Legacy System Migration Workbench)</li>
+        <li>Interfaces through upload of .txt or Excel files holding data</li>
+        <li>Manual data entry using transaction codes</li>
+    </ul>
+
+    <h2>Printing</h2>
+
+    <p>SAP generates a variety of documents such as purchase orders, sales orders, invoices, pay-slips, etc. You can take a print of these documents whenever required. The following illustration shows how the printing process works in a SAP system.</p>
+
+    <p>Different kinds of print methods are needed in a SAP system, such as −</p>
+
+    <ul>
+        <li>Local printing</li>
+        <li>Remote printing (network)</li>
+        <li>Front-end printing (SAP GUI for Windows)</li>
+        <li>Front-end printing (SAP GUI for HTML)</li>
+    </ul>
+    <img src="F:\titan\Pictures\abap3.jpg">
+    <p>After the user triggers the print process, the print requests are sent to the spool server, which contains the dialog and spool work processes required for the processing.</p>
+
+    <h2>General Programming</h2>
+
+    <p>Programs can be written interactively using the capabilities of the R/3 system. Programs can be executed both online and in the background. Background jobs can also be scheduled to run at specific intervals.</p>
+
+    <p>Module pool programming (or online programming) involves the creation of a module pool (a collection of ABAP modules) and one or more screens. The modules are called by the screen processor during program execution.</p>
+
+    <p>Batch input processing is used to ensure the safe transfer of data into the SAP system. This process is an automatic, protected data transfer to the SAP system which uses SAP transactions to validate data as it populates the SAP database.</p>
+
+    <p>ABAP contains statements that conform to CPI-C standards (Common Program Interface - Communications). These are used for programming communications programs.</p>
+
+    <p>ABAP can read and write sequential datasets.</p>
+
+</body>
+</html>

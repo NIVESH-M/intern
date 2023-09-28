@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<b><h1 style="background-color: greenyellow;">PUZZLE 3</b></h1>
+<title>solve it!!</title>
+<head><style>
+    /* Set display to none for image*/
+    #image {
+        display: none;
+    }
+</style></head>
+<img src="F:\titan\Pictures\p3q.jpeg">
+<h2 style="border: 0cqmax;">Fill numbers 1-8 in these 8 boxes such that no adjacent(surrounding) boxes have consecutive numbers.<br>
+For example, if the center left box has 3. Only the rightmost box could have 2 or 4 in it.<br>
+None of the other box could have 2/4 as they all surround the box which contains 3.</h2>
+<div><img id="image" src="F:\titan\Pictures\p3a.jpeg"
+             alt="ANSWER" />
+</div>
+<button type="button" style="background-color: blue;color: white;"  onclick="show()" id="btnID"><b>ANSWER</b></button>
+<script>
+    function show() {
+        document.getElementById('image')
+            .style.display = "block";
+        document.getElementById('btnID')
+            .style.display = "none";
+    }
+</script>
