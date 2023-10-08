@@ -45,6 +45,9 @@ h1 {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     background-image: linear-gradient(to bottom, orange,yellow );
 }
+.credit{
+    color:black;
+}
 
 .bottom{
     width:100%;
