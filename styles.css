@@ -116,6 +116,18 @@ h1 {
     transition: background-color 0.3s ease, transform 0.2s ease;
     position: relative;
 }
+.name4 {
+    width: 80px; 
+    height: 100px;
+    background-color: #3498db; 
+    margin: auto;
+    
+    text-align: center;
+    line-height: 100px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    position: relative;
+}
 
 .box a {
     text-decoration: none;
