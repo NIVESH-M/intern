@@ -50,7 +50,7 @@ h1 {
 }
 
 .bottom{
-    width:100%;
+    width:130%;
     height: 300px;
     background-color: black;
     background-size: cover;
@@ -128,10 +128,7 @@ h1 {
     transition: background-color 0.3s ease, transform 0.2s ease;
     position: relative;
 }
-.space4{
-    position: relative;
-    right:-50px; 
-    z-index: 1; 
+
 }
 .box a {
     text-decoration: none;
